@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    margin: 0 40px;
+    padding: 10px;
+}
+.header_nav{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.header_nav-img{
+    height:90px;
+}
+.header_nav-items{
+    display: flex;
+    gap: 35px;
+}   
+.header_nav-item a{
+    padding: 10px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(94, 153, 6);
+}
+.header_nav-item a:hover{
+    color: rgb(180, 55, 55);
+    background-color: aqua;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: center;
+}
+.section1_div-text{
+    color: rgb(87, 84, 84);
+    font-size: 30px;
+    width: 500px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section2_h i{
+    text-align: center;
+}
+.section2_h h3{
+    font-size:25px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section3_text{
+    color: rgb(108, 100, 100);
+    font-size: 30px;
+    width: 700px;
+}
+.section3_img img{
+    width: 2opx;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section4_img img{
+    width:500px;
+}
+.section4_text{
+    color: rgb(87, 78, 78);
+    font-size: 30px;
+    width: 700px;
+}
+
+.footer{
+    color: rgb(198, 221, 221);
+    background-color: rgb(21, 12, 12);
+    font-size: small;
+    text-align: center;
+    padding: 16px;
+}
+
+.p5{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+.section5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section5_div1 img{
+    width: 200px;
+}
+.section5_div2 img{
+    width: 200px;
+}
+.section5_div3 img{
+    width: 200px;
+}
+.section5_div4 img{
+    width: 200px;
+}
